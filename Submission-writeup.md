@@ -114,11 +114,11 @@ My final model results were:
 
 If a well known architecture was chosen:
 * What architecture was chosen?
-** I used LeNet architecture as used in the lecture which initially gave me validation accuracy of around 89% but I increased this accuracy by tweaking epoch value to 50 and batch size to 50. The reason of increasing the epoch value to 50 was that with each epoch cycle, I was getting an improvement in the accuracy. Moreover, small batch sizes gave me higher accuracy so I chose the batch value of 50.
+  * I used LeNet architecture as used in the lecture which initially gave me validation accuracy of around 89% but I increased this accuracy by tweaking epoch value to 50 and batch size to 50. The reason of increasing the epoch value to 50 was that with each epoch cycle, I was getting an improvement in the accuracy. Moreover, small batch sizes gave me higher accuracy so I chose the batch value of 50.
 * Why did you believe it would be relevant to the traffic sign application?
-** While there can be other architectures which can be used and modified to train this model for which I ll keep studying and experimenting further but for the sake of this project, I chose to go with the architecture used in the lecture as I was already comfortable with its implementation.
+  * While there can be other architectures which can be used and modified to train this model for which I ll keep studying and experimenting further but for the sake of this project, I chose to go with the architecture used in the lecture as I was already comfortable with its implementation.
 * How does the final model's accuracy on the training, validation and test set provide evidence that the model is working well?
-** Accuracy of 93% on test set gave me the confidence to test this model on new images taken from web. 4 out of 5 such images were predicted correctly using this model which proved that this model is working model. Although I ll work further on improving this model to get better accuracy.
+  * Accuracy of 93% on test set gave me the confidence to test this model on new images taken from web. 4 out of 5 such images were predicted correctly using this model which proved that this model is working model. Although I ll work further on improving this model to get better accuracy.
  
 
 ### Test a Model on New Images
